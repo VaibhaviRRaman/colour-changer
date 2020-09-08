@@ -1,0 +1,20 @@
+.back-container{
+    width: 100vw;
+    height: 100vh;
+
+    /*for container to be in center (centering style)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-box{
+    width:1000px;
+    height:500px;
+
+    border: 4px black solid;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
